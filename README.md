@@ -22,7 +22,7 @@ Bubble sort takes a single array parameter as input and returns a sorted array o
 \-The swap variable is created and set to true by default.  
 \-The while loop will run as long as swap is true.  
 \- swap is set to false since immediately after the beginning of the loop, there have been no swaps.  
-\-In the loop,we iterate through each element of the array and check if element x is greater than the element next to it x + 1.  
+\-In the loop,we iterate through each element of the array and check if element x is greater than the element next to it x+1  
 \-If so,we swap the value of x with value of x+1 and set value of swap to true since we did make a swap.  
 \-The loop repeats until every item is in order and the value of swap remains at false.  
 \-The loop will terminate and the array will be returned.
