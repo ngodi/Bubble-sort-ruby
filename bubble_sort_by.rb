@@ -15,10 +15,7 @@ def bubble_sort_by(arr)
 end
 
 test = ["hi","hello","hey"]
-puts "Initial array: #{test}"
 
 result = bubble_sort_by(test) do |left,right|	
 	right.length - left.length 
 end
-
-puts "Sorted array " + result.to_s
